@@ -1,0 +1,42 @@
+==================================================================================
+                                13-03-2026
+==================================================================================
+
+=== Device ===
+- reduce statusbar padding (credit:- anchalsehrawat)
+- set correct battery capacity (credit:- anchalsehrawat)
+- disable game default frame rate feature (credit:- anchalsehrawat)
+- update brightness mapping
+- set physical power button location
+- set screen density to 420
+- support for smart pixels
+- tune powerhint to avoid ui jitter (may cause higher battery usage)
+- switch to EROFS (only GMS build)
+- add Lunaris Dolby
+- add Oplus Camera
+- add OnePlus IR Remote
+
+=== ROM ===
+- LunarisAOSP 3.8
+- Add new island like popup dialog for music chip
+- Merge r4 march patch
+- Fix torch and wifi lockscreen widget issue
+- Fix custom clocks not updating on aod
+- Allow choose custom color/gradient for clock chip
+- Media chip popup follow qs seekbar style
+- Optimize ongoing chip
+- Enforce white color for custom clocks in aod
+- Allow disable qsb extra height in workspace
+- Add music chip bg color options
+- Remove gradient customization (feels heavy)
+- Some visual improvements in music chip
+- Fix recent card instant/fast snap issue
+- Fix default (redesigned) volume panel ringer switches not working in landscape mode
+- Drop recent card scale animation
+- Resolve Launcher3 crash caused by certain icon packs.
+- Add 2 new clock faces from iconify
+- Vol. percentage in redesigned style
+- Add mask statusbar clock style for custom gradient chip
+- Switch back to clamp blur
+- Minor music popup media player ui changes
+- Drop some usless system boost changes
