@@ -1,8 +1,51 @@
-==================================================================================
-                                13-03-2026
-==================================================================================
+##################
+### 24-03-2026 ###
+##################
 
-=== Device ===
+--- DEVICE ---
+- Added systemui restart option in advanced restart (credit:- mukesh22584 & anchalsehrawat)
+- Fixed Doze to screen-on transition brightness isseue (credit:- Tomáš Hurýn & anchalsehrawat)
+- switch to EROFS (only GMS build)
+- kernel: added haptic level adjustment (credit:- engstk)
+- KernelSU Next: v1.1.1 -> v3.1.0 (credit:- neobuddy89)
+- Dropped SusFS
+- Reverted: Abandon generated certs to fix TEE check
+    (caused interity to fail)
+
+--- ROM ---
+- Add basic sleep mode
+- Allow switch to legacy statusbar icon order
+- Implement proper UI for per-app spoofing
+- Add battery indicator in notch ring
+- Allow changes launcher hotseat QSB style
+- Hide ongoing action chip while QS panel is expanded
+- Fix hide developer mode search list crash
+- Fix backup settings crash
+- Add appdrawer searchbar location
+- Dark text on appdrawer toggle
+- Introduce appdrawer styles
+- Add option to clear home screen in settings
+- Fix footer settings long press crash
+- Remove some duplicate settings entries
+- Music progress ring in notch ring
+- Add idle manager (like greenify)
+- Allow set custom color in app drawer bg
+- Allow change custom clock size
+- Improve legacy recent action style padding
+- Update smartspace to CP1A.260305.018
+- Add method to block PairIP license check activity
+- Abandon generated certs to fix TEE check
+- Add torch toggle for double tap power gesture
+- Implement new dynamic VoLTE/VoWiFi status bar icons
+- Implement new dynamic VoNR status bar icons
+- Allow disable flash SMS messages
+
+
+##################
+### 13-03-2026 ###
+##################
+
+--- DEVICE ---
 - reduce statusbar padding (credit:- anchalsehrawat)
 - set correct battery capacity (credit:- anchalsehrawat)
 - disable game default frame rate feature (credit:- anchalsehrawat)
@@ -11,13 +54,12 @@
 - set screen density to 420
 - support for smart pixels
 - tune powerhint to avoid ui jitter (may cause higher battery usage)
-- switch to EROFS (only GMS build)
 - add Lunaris Dolby
 - add Oplus Camera
 - add OnePlus IR Remote
 - KernelSU Next v1.1.1 with SusFS (credit:- neobuddy89 and crdroid)
 
-=== ROM ===
+--- ROM ---
 - LunarisAOSP 3.8
 - Add new island like popup dialog for music chip
 - Merge r4 march patch
