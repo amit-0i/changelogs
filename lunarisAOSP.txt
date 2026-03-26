@@ -1,4 +1,21 @@
 ##################
+### 27-03-2026 ###
+##################
+[HOTFIX BUILD]
+
+--- DEVICE ---
+- Fixed intial lockscreen setup fails
+- Fixed lags on GMS builds
+- Fix auto brightness jittering
+- Fixed spatial audio changes (credit:- switchOFF & Trochanter)
+- silence useless log spams
+- Reverted to KernelSU Next v1.1.1
+    (Susfs is back)
+
+--- ROM ---
+same as 24-03-2026
+
+##################
 ### 24-03-2026 ###
 ##################
 
