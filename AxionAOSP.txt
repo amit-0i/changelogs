@@ -1,0 +1,24 @@
+##################
+### 30-03-2026 ###
+##################
+
+--- DEVICE ---
+- Initial Release
+- reduce statusbar padding (credit:- anchalsehrawat)
+- set correct battery capacity (credit:- anchalsehrawat)
+- disable game default frame rate feature (credit:- anchalsehrawat)
+- update brightness mapping
+- set physical power button location
+- set screen density to 420
+- tune powerhint to avoid ui jitter (may cause higher battery usage)
+- Added systemui restart option in advanced restart (credit:- mukesh22584 & anchalsehrawat)
+- switch to EROFS (only GMS build)
+- kernel: added haptic level adjustment (credit:- engstk)
+- add Lunaris Dolby
+- add Oplus Camera
+- add OnePlus IR Remote
+- KernelSU Next v1.1.1 with SusFS (credit:- neobuddy89 and crdroid)
+
+--- ROM ---
+- Initial v2.5 BETA Release
+read blog post:- https://www.axionos.org/post.html?id=changelog-5
