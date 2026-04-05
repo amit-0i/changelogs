@@ -1,0 +1,14 @@
+##################
+### 05-04-2026 ###
+##################
+
+--- DEVICE ---
+- Fixed peak brightness issues
+- Auto-brightness broken
+- add Dolby Atmos
+- add Oplus Camera
+- add OnePlus IR Remote
+- KernelSU Next v1.1.1 with SusFS (credit:- neobuddy89 and crdroid)
+
+--- ROM ---
+- VoltageOS 5.8 initial release
